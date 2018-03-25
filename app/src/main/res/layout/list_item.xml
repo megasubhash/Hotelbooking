@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/cover"
+        android:scaleType="centerCrop"
+        android:id="@+id/himage" />
+
+    <RelativeLayout
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/himage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:paddingBottom="1dp"
+        android:paddingRight="8dp"
+
+        >
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:alpha="0.4"
+
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:id="@+id/hprice"
+        android:text="Rs 2400/-" />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/hname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/himage"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textStyle="bold"
+        android:text="Hotel Kolkata Howrah" />
+
+    <TextView
+        android:id="@+id/haddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hname"
+        android:layout_alignStart="@+id/hname"
+        android:layout_below="@+id/hname"
+        android:text="24 Salt Lake, Sector V, Kolkata, West Bengal"
+        android:textSize="18sp"
+        android:textStyle="italic"
+
+        />
+
+</RelativeLayout>
