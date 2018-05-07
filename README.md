@@ -1,3 +1,6 @@
 # Hotelking
-The online hotel booking app
-hgchgch
+This is online hotel booking app
+
+In this application firebase is used for realtime update.
+
+
